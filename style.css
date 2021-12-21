@@ -1,0 +1,88 @@
+body,header,section,nav,main,aside,figure,figcaption,imgh1,h2,h3,h4,p,ul,ol,li{
+  margin: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+}
+  
+header {
+	width: 100%;
+	background-color: #e3e3e3;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 45% 10% 45%;
+    padding: 1em 0;
+}
+
+header span a img {
+	width: 150px;
+}
+
+header h1 {
+	padding: 0;
+}
+
+header nav,
+header nav ul {
+	height: 100%;
+}
+
+nav ul li {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	list-style-type: none;
+	padding: 0 1em;
+	font-size: 14pt;
+}
+
+nav.hoofdmenu ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav.submenu ul {
+	display: flex;
+	justify-content: flex-start;
+}
+
+main{
+    width:70%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    padding: 1em;
+}
+
+figure img {
+    width: 100%;
+}
+figcaption {
+    font-style: italic;
+}
+section main li {
+	list-style-type: none;
+}
+main, aside{
+padding: 0 1em;}
+article {
+    padding: 1em 0;
+}
+
+label, input, select, textarea {
+    width: 100%;
+    display: inline-block;
+}
+
+footer {
+	padding: 2em 15%;
+	background-color: #e3e3e3;
+}
+
+footer img {
+	width: auto;
+	height: 30px;
+}
+  
